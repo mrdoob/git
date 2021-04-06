@@ -955,7 +955,7 @@ else
 fi
 GIT_CONF_SUBST([NO_REGEX])
 #
-# Define FREAD_READS_DIRECTORIES if your are on a system which succeeds
+# Define FREAD_READS_DIRECTORIES if you are on a system which succeeds
 # when attempting to read from an fopen'ed directory.
 AC_CACHE_CHECK([whether system succeeds to read fopen'ed directory],
  [ac_cv_fread_reads_directories],
@@ -975,7 +975,7 @@ else
 fi
 GIT_CONF_SUBST([FREAD_READS_DIRECTORIES])
 #
-# Define SNPRINTF_RETURNS_BOGUS if your are on a system which snprintf()
+# Define SNPRINTF_RETURNS_BOGUS if you are on a system which snprintf()
 # or vsnprintf() return -1 instead of number of characters which would
 # have been written to the final string if enough space had been available.
 AC_CACHE_CHECK([whether snprintf() and/or vsnprintf() return bogus value],
